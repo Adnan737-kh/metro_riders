@@ -8,9 +8,9 @@ import 'package:carousel_slider/carousel_slider.dart';
 import '../../utility/ScondCardView.dart';
 
 class TheCityProStore extends StatelessWidget {
-  TheCityProStore({super.key});
+  const TheCityProStore({super.key});
 
-  int sliderIndex = 1;
+  final int sliderIndex = 1;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
